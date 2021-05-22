@@ -1,0 +1,6 @@
+@import '../App.scss';
+
+.cardList {
+  @include flexCenCen;
+  flex-wrap: wrap;
+}

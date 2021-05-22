@@ -1,0 +1,71 @@
+@import '../App.scss';
+
+.card {
+  width: 300px;
+  margin: 25px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card__img {
+  width: 300px;
+  height: 520px;
+  cursor: pointer;
+}
+
+.card__details {
+  padding: 35px 15px 10px;
+  margin-top: -35px;
+  background-color: $dark-color;
+}
+
+.card__details-star {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: -25px;
+  left: 220px;
+}
+
+.card__details-star.favorite {
+  fill: $primary-color;
+}
+
+.card__details-star.favorite:hover {
+  fill: $primary-color;
+}
+
+.card__details-star.noFavorite {
+  fill: $light-color;
+}
+
+.card__details-star.noFavorite:hover {
+  fill: $primary-color;
+}
+
+.card__details-name {
+  margin: 0;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 21px;
+}
+
+.card__details__item {
+  margin: 5px 0;
+}
+
+.card__details__item-more {
+  text-align: end;
+}
+
+.card__details__item-more:hover {
+  cursor: pointer;
+  color: $success-color;
+  font-weight: bolder;
+}
+
+.card__details__item-type {
+  color: $success-color;
+  font-weight: bolder;
+}

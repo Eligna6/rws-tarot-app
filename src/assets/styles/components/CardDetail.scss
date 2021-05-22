@@ -1,0 +1,34 @@
+@import '../App.scss';
+
+.cardDetail {
+  @include flexCenCen;
+  border-radius: 15px;
+  overflow: auto;
+  position: sticky;
+}
+
+.cardDetail__container {
+  width: 400px;
+  height: 400px;
+  padding: 0 35px;
+  background-color: transparent;
+}
+
+.cardDetail__item {
+  margin: 15px 0;
+  background-color: $dark-color;
+}
+
+.cardDetail__item-type {
+  color: $success-color;
+  font-weight: bolder;
+}
+
+.cardDetail-img{
+  position: fixed;
+  left: 60px;
+}
+
+.cardDetail-name{
+  color: $success-color;
+}
